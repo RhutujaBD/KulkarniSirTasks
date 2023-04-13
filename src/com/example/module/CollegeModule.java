@@ -11,7 +11,7 @@ public class CollegeModule {
 
 		College branch = College.TEACHER;
 		Scanner scanner = new Scanner(System.in);
-
+		System.out.println("Hello GIT");
 		System.out.println("Choose Any Key:: ");
 		for (College branchs : College.values()) {
 			System.out.println(branchs);
